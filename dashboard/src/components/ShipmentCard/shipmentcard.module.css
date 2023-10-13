@@ -1,0 +1,51 @@
+.shipment_card{
+    background: var(--white);
+    padding: 20px;
+    color: var(--light-gray);
+    border-radius: 10px;
+
+}
+.shipment_card_head{
+    position: relative;
+}
+.shipment_card_head h4{
+   font-weight: 600;
+   color: var(--d-blue);
+}
+
+.status_btn {
+    padding: 5px 20px;
+    background-color: #593BFB;
+    border-radius: 20px;
+    color: var(--white);
+    font-size: 13px;
+    outline: none;
+    border: none;
+}
+  
+.status_btn_progress {
+    padding: 3px;
+    background-color: #f8f8f8;
+    border-radius: 20px;
+    color: var(--dark-text);
+    font-size: 14px;
+    outline: none;
+    border: none;
+    min-width: 90px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+  }
+  .pending_btn_circle {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:#593BFB;
+  }
+  .order_name{
+    position: absolute;
+    bottom: -10px;
+    color: var(--dark-text);
+    font-weight: 600;
+  }

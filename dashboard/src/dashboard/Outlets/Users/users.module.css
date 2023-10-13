@@ -1,0 +1,84 @@
+.table_wrapper {
+  width: 100%;
+}
+
+.table_container {
+  margin-top: 50px !important;
+  padding: 10px !important;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 15px;
+}
+
+.table_header {
+  height: 50px;
+}
+.table_header tr th {
+  padding: 10px;
+  color: #5d5e5d;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.table_body tr {
+  background-color: #fff;
+  border-radius: 5px;
+  border: 0.5px solid rgb(173, 157, 157);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.table_body tr td {
+  padding: 5px 5px;
+  font-weight: 600;
+}
+
+.package_name {
+  padding: 5px 10px;
+  background-color: #593bfb;
+  border-radius: 5px;
+  color: var(--white);
+  font-size: 13px;
+}
+
+.user_avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.filter_user {
+  width: 22%;
+  padding: 0.5rem;
+  border-radius: 7px;
+  border: 1px solid grey;
+}
+.filter_select {
+  padding: 5px;
+  width: 180px;
+  outline: none;
+  border: none;
+  background-color: var(--white);
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--dark-text);
+}
+.filter_select option {
+  background-color: var(--white) !important;
+  color: var(--d-blue) !important;
+}
+@media screen and (max-width: 1200px) {
+  .table_wrapper {
+    overflow-x: scroll;
+  }
+  .table_wrapper::-webkit-scrollbar {
+    height: 7px;
+  }
+  .table_wrapper::-webkit-scrollbar-track {
+    background-color: var(--light-green);
+  }
+  .table_wrapper::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: var(--primary-green);
+  }
+}

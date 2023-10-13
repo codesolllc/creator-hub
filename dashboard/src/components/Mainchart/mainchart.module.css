@@ -1,0 +1,25 @@
+.mainchart_container{
+    width: 100%;
+    height: 600px;
+    background-color: var(--white);
+    border-radius: 20px;
+}
+
+.graph_bar_tag{
+    color: var(--d-gray-text);
+}
+.circle_tag, .circle_tag2{
+    font-size: 10px;
+    color: var(--primary-green);
+}
+.circle_tag2{
+    color: var(--d-green);
+    margin-left: 50px;
+}
+
+.select_month_field{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: var(--d-gray-text);
+}

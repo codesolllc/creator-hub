@@ -1,0 +1,39 @@
+.Dbox {
+  width: 300px;
+  height: 140px;
+  background-color: var(--white);
+  border-radius: 20px;
+  margin: 0px auto;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 10px;
+  color: var(--dark-text);
+}
+.Dbox_content_title {
+  font-weight: 600;
+  color: var(--d-gray-text);
+}
+
+.small_graph {
+  width: 60px;
+}
+
+/* Responsiveness */
+
+@media screen and (max-width: 1620px) {
+  .Dbox {
+    width: 250px;
+    height: 130px;
+    gap: 15px;
+  }
+  .Dbox_content_title {
+    font-size: 14px;
+  }
+  .small_graph {
+    width: 40px;
+  }
+}
+

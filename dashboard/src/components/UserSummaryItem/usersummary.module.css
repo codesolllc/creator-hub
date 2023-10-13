@@ -1,0 +1,15 @@
+.usersummary_item{
+    border-bottom: 1px solid rgb(206, 190, 190);
+}
+
+.gender_icon{
+  font-size: 35px;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+.userdetails span{
+    font-size: 14px;
+ }
+.userdetails small{
+    font-size: 12px;
+}

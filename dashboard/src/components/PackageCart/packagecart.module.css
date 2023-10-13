@@ -1,0 +1,67 @@
+.package_cartBox{
+    background: var(--white);
+    border-radius: 5px;
+    color: var(--dark-text);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+}
+.package_Details h4{
+    font-weight: 600;
+    font-size: 25px;
+}
+.package_Details span{
+    padding: 4px 12px;
+    background: var(--primary-green);
+    border-radius: 20px;
+    font-weight: 600;
+    color: var(--white);
+}
+.package_Details p{
+    font-size: 28px;
+    font-weight: 900;
+}
+.package_Details p>sup{
+    font-size: 14px;
+    font-weight: 600;
+}
+.package_Details button{
+    padding: 5px 30px;
+    background: var(--primary-green);
+    border-radius: 20px;
+    color: var(--white);
+    outline: none;
+    border: none;
+    font-size: 14px;
+}
+.package_Details button:active{
+  transform: scale(0.97);
+}
+.AreaChartContainer{
+    width: 70%;
+    height: 220px;
+}
+@media screen and (max-width: 768px) {
+    .AreaChartContainer{
+        width: 70%;
+        height: 220px;
+    }  
+}
+@media screen and (max-width: 576px) {
+    .package_Details h4{
+        font-size: 22px;
+    }
+    .package_Details p{
+        font-size: 25px;
+    }
+    .package_Details p>sup{
+        font-size: 12px;
+    }
+    .package_Details button{
+        font-size: 12px;
+    }
+    .AreaChartContainer{
+        width: 60%;
+        height: 220px;
+
+    }  
+}

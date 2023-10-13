@@ -1,0 +1,381 @@
+:root {
+  --green-gradient: linear-gradient(
+    to right,
+    #654bfa,
+    #6348ff,
+    #755dfa,
+    #7b65f7,
+    #ab9bff
+  );
+  --primary-green: #593bfb;
+  --light-green: #f8fff3;
+  --medium-green: #593bfb;
+  --hover-green: #593bfb;
+  --dark-text: #483b33;
+  --light-gray: #7d8283;
+  --white: #ebebeb;
+  --d-green: #593bfb;
+  --d-white: #f6f6f6;
+  --d-gray-text: #6c6f89;
+  --d-blue: #232f4e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: "Titillium Web", sans-serif !important;
+  scroll-behavior: smooth;
+  background: #fff;
+}
+
+/* Typography */
+.f-bolder {
+  font-weight: 900;
+}
+.f-bold {
+  font-weight: 600;
+}
+.text-dark-gray {
+  color: var(--dark-text);
+}
+.text-light-gray {
+  color: var(--light-gray);
+}
+.text-theme-white {
+  color: var(--white);
+}
+.text-green {
+  color: var(--primary-green);
+}
+.para-text {
+  font-weight: 300 !important;
+}
+.description-title {
+  font-size: 30px;
+  line-height: 45px;
+}
+.description-text {
+  font-size: 20px;
+}
+.banner-title-heading {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+/* navbar styles */
+.nav-item {
+  text-transform: uppercase !important;
+  font-weight: 600;
+}
+.nav-link {
+  color: var(--light-gray);
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: var(--hover-green) !important;
+}
+
+/* button typs */
+.authbtn {
+  background-color: var(--primary-green);
+  border: 0;
+  outline: none;
+  font-weight: 600;
+  color: var(--white);
+  padding: 5px;
+  width: 110px;
+  border-radius: 20px;
+}
+.submit_btn {
+  background-image: var(--green-gradient);
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 50px;
+  font-weight: 600;
+  color: var(--white);
+}
+.login_btn {
+  background-image: var(--green-gradient);
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+  font-weight: 600;
+  color: var(--white);
+}
+.google_auth_btn {
+  background: #fff;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+  font-weight: 600;
+  color: var(--dark-text);
+  border: 2px solid var(--primary-green);
+}
+.google_auth_btn .google_icon {
+  font-size: 25px;
+}
+.app_store_btn img {
+  width: 250px !important;
+}
+.app_store_btn_footer img {
+  width: 100% !important;
+}
+
+input[type="radio"] {
+  accent-color: var(--primary-green) !important;
+}
+
+.form-control:focus {
+  border-color: var(--primary-green) !important;
+  box-shadow: 0 0 0 0.25rem #3245845e !important;
+}
+
+select option {
+  background-color: var(--white) !important;
+  color: var(--d-blue) !important;
+}
+
+/* app scroll bar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: var(--light-green);
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background: var(--primary-green);
+}
+
+/* Swiper JS */
+
+.swiper-button-disabled {
+  display: none !important;
+}
+
+.swipper-container {
+  position: relative;
+}
+.swiper-prev {
+  background: var(--primary-green);
+  position: absolute;
+  top: 0px;
+  left: -10px;
+  padding: 3px;
+  height: 110px;
+  z-index: 100;
+  outline: none;
+  border: none;
+  color: var(--d-white);
+  border-radius: 5px;
+  transform: translateY(57%);
+}
+.swiper-next {
+  background: var(--primary-green);
+  position: absolute;
+  top: 0px;
+  right: -10px;
+  padding: 3px;
+  height: 110px;
+  z-index: 100;
+  outline: none;
+  border: none;
+  color: var(--d-white);
+  border-radius: 5px;
+  transform: translateY(57%);
+}
+
+/* App Modal */
+.modal_wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  height: 100vh;
+  width: 100%;
+  background-color: #ffffff96;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal_box {
+  position: relative;
+  width: 450px;
+  background: var(--primary-green);
+  color: var(--white);
+  border-radius: 20px;
+  padding: 10px;
+  animation: zoomEffect ease 0.3s;
+}
+.modal_box select {
+  padding: 5px;
+  background-color: var(--white);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.modal_box select option {
+  border-bottom: 5px solid var(--medium-green);
+}
+.modal_close_btn {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  cursor: pointer;
+  font-size: 28px;
+  color: var(--white);
+}
+
+.modal_sumbit_btn {
+  background: #fff;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  width: 100%;
+  font-weight: 600;
+  color: var(--dark-text);
+  border: 2px solid var(--primary-green);
+}
+
+@keyframes zoomEffect {
+  0% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Dots start to end */
+.bar {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+.bar > li {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.bar > li:before {
+  content: "\25CF";
+  font-size: 30px;
+}
+.bar > li:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: "";
+  border-left: 2px solid var(--light-gray);
+  margin-left: 8px;
+  height: 100%;
+}
+.bar > li:first-of-type:after {
+  top: 50%;
+}
+.bar > li:last-of-type:after {
+  top: -50%;
+}
+
+/* pagination styles */
+.pagination__link {
+  display: block !important;
+  color: #fff;
+  text-decoration: none;
+  background-color: #593bfb;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 5px 10px;
+  text-align: center;
+  width: 100px;
+}
+.pagination {
+  font-weight: bold;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination__link--active {
+  color: #593bfb;
+  width: 30px;
+  padding: 5px 0px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: rgb(230, 219, 219);
+}
+
+/* Responsiveness */
+@media screen and (max-width: 998px) {
+  .app_store_btn img {
+    width: 220px !important;
+  }
+  .description-title {
+    font-size: 27px;
+    line-height: 40px;
+  }
+  .description-text {
+    font-size: 18px;
+  }
+  .app_store_btn_footer img {
+    width: 80% !important;
+  }
+  .banner-title-heading {
+    font-size: 45px;
+  }
+}
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 72.5%;
+  }
+  .app_store_btn img {
+    width: 150px !important;
+  }
+  .description-title {
+    font-size: 25px;
+    line-height: 36px;
+  }
+  .description-text {
+    font-size: 16px;
+  }
+  .banner-title-heading {
+    font-size: 38px;
+  }
+}
+@media screen and (max-width: 576px) {
+  html {
+    font-size: 62.5%;
+  }
+  .app_store_btn img {
+    width: 130px !important;
+  }
+  .description-title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .description-text {
+    font-size: 14px;
+  }
+  .banner-title-heading {
+    font-size: 32px;
+  }
+  .swiper-prev {
+    left: 10px;
+  }
+  .swiper-next {
+    right: 10px;
+  }
+}

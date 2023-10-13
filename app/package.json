@@ -1,0 +1,37 @@
+{
+  "name": "creators_hub_origin",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "1.18.2",
+    "@react-navigation/bottom-tabs": "^6.5.8",
+    "@react-navigation/native": "^6.1.7",
+    "@react-navigation/native-stack": "^6.9.13",
+    "@reduxjs/toolkit": "^1.9.5",
+    "expo": "~49.0.7",
+    "expo-av": "^13.4.1",
+    "expo-image-picker": "^14.3.2",
+    "expo-splash-screen": "^0.20.5",
+    "expo-status-bar": "~1.6.0",
+    "react": "18.2.0",
+    "react-native": "0.72.3",
+    "react-native-elements": "^3.4.3",
+    "react-native-modal": "^13.0.1",
+    "react-native-progress": "^5.0.0",
+    "react-native-responsive-screen": "^1.4.2",
+    "react-native-safe-area-context": "^4.7.1",
+    "react-native-screens": "^3.24.0",
+    "react-redux": "^8.1.2",
+    "expo-document-picker": "~11.5.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}

@@ -1,0 +1,27 @@
+.authbox_title_bar{
+    background-image:var(--green-gradient);
+    position: relative;
+    color: var(--white);
+    height: 70px;
+}
+.authbox_title_bar h1{
+    text-align: center;
+    line-height: 70px;
+    font-weight: 600;
+}
+.link_angle{
+    position: absolute;
+    left: 30px;
+    font-size: 30px;
+    line-height: 70px;
+    cursor: pointer;
+    color: var(--white);
+}
+
+/* Responsiveness */
+
+@media screen and (max-width: 576px) {
+    .link_angle{
+        font-size: 20px;
+    }
+}

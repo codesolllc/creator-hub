@@ -1,0 +1,63 @@
+.authbox {
+  min-height: 60vh;
+  width: 70%;
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.form_container {
+  width: 40%;
+  margin: 30px auto;
+}
+.form_container form label {
+  font-weight: 600;
+}
+.form_container form input {
+  border: 2px solid var(--primary-green);
+  padding: 10px;
+  color: var(--text-gray) !important;
+}
+.form_container form input::placeholder {
+  color: rgb(196, 180, 180) !important;
+}
+.form_container form small{
+  color: red;
+  font-weight: 600;
+}
+.password_field_box{
+    position: relative;
+}
+.p_eye_icon{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 20px;
+    color: rgb(148, 142, 142) !important;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 1200px) {
+  .form_container {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 998px) {
+  .authbox {
+    width: 75%;
+  }
+  .form_container {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .authbox {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .authbox {
+    width: 90%;
+  }
+  .form_container {
+    width: 80%;
+  }
+}

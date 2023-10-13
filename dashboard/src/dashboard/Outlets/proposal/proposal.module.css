@@ -1,0 +1,69 @@
+.table_wrapper {
+  width: 100%;
+}
+
+.table_container {
+  margin-top: 50px !important;
+  padding: 10px !important;
+  width: 100%;
+  border-spacing: 0 15px;
+  border-collapse: collapse;
+}
+
+.table_header {
+  height: 50px;
+}
+.table_header tr th {
+  padding: 10px;
+  color: #483b33;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 900;
+  padding-bottom: 20px;
+}
+
+.table_body tr {
+  border-radius: 5px;
+  border-bottom: 1px solid #d4ccc7 !important;
+}
+
+.table_body tr td {
+  padding: 15px 5px;
+  font-weight: 900;
+  font-size: 16px;
+  color: #483b33;
+}
+
+.status_btn_paid {
+  padding: 5px;
+  background-color: #593bfb;
+  border-radius: 5px;
+  color: var(--white);
+  font-size: 15px;
+  outline: none;
+  border: none;
+  width: 100px;
+  font-weight: 600;
+}
+
+.user_card_img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 1200px) {
+  .table_wrapper {
+    overflow-x: scroll;
+  }
+  .table_wrapper::-webkit-scrollbar {
+    height: 7px;
+  }
+  .table_wrapper::-webkit-scrollbar-track {
+    background-color: var(--light-green);
+  }
+  .table_wrapper::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: var(--primary-green);
+  }
+}

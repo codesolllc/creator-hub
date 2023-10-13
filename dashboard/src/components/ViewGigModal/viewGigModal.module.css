@@ -1,0 +1,136 @@
+.gig_detail_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gig_img {
+  width: 100%;
+  border-radius: 10px;
+  height: 16rem;
+}
+.gig_detail {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  padding-top: 1rem;
+  flex-direction: column;
+}
+.gig_detail span {
+  display: flex;
+  gap: 0.5rem;
+  width: 100%;
+  justify-content: space-between;
+}
+.gig_detail span h4 {
+  font-weight: 500;
+  margin: 0;
+  font-size: 1.1rem;
+}
+.gig_detail span h4:nth-child(1) {
+  font-weight: 800;
+  margin: 0;
+  font-size: 1.1rem;
+}
+.gig_detail span p {
+  margin: 0;
+  font-size: 1rem;
+}
+.modal_inner_box {
+  width: 40vw !important;
+  height: 80vh;
+  overflow-y: auto;
+
+  padding: 2rem 0rem !important;
+}
+.table_container {
+  margin-top: 50px !important;
+  padding: 10px !important;
+  width: 100%;
+  border-spacing: 0 15px;
+  border-collapse: collapse;
+}
+
+.table_header {
+  height: 50px;
+}
+.table_header tr {
+  text-align: center;
+}
+.table_header tr th {
+  padding: 10px;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 900;
+  padding-bottom: 20px;
+}
+.table_body {
+  text-align: center;
+}
+.table_body tr {
+  border-radius: 5px;
+  border-bottom: 1px solid #d4ccc7 !important;
+}
+
+.table_body tr td {
+  padding: 15px 5px;
+  font-weight: 900;
+  font-size: 16px;
+  color: #fcfcfc;
+}
+
+.user_card_img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.Btn_div {
+  width: 100%;
+  text-align: center;
+  padding-top: 3rem;
+}
+.view_applicant_btn {
+  padding: 0.5rem 3rem;
+  background: white;
+  border: 1px solid gray;
+  border-radius: 7px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.applicant {
+  display: none;
+}
+.applicant_active {
+  display: flex;
+  justify-content: center;
+}
+.table_wrapper {
+  width: 90%;
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 1200px) {
+  .table_container {
+    margin-top: 50px !important;
+    padding: 10px !important;
+    width: 35rem;
+    border-spacing: 0 15px;
+    border-collapse: collapse;
+    margin: 0;
+  }
+  .table_wrapper {
+    overflow-x: scroll;
+  }
+  .table_wrapper::-webkit-scrollbar {
+    height: 7px;
+  }
+  .table_wrapper::-webkit-scrollbar-track {
+    background-color: var(--light-green);
+  }
+  .table_wrapper::-webkit-scrollbar-thumb {
+    border-radius: 0px !important;
+    background: var(--primary-green);
+  }
+}

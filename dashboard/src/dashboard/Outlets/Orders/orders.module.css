@@ -1,0 +1,110 @@
+.sale_progress_container {
+  background-color: var(--white);
+  border-radius: 10px;
+}
+
+.orderbox_select {
+  padding: 5px 10px;
+  background-color: var(--white);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  width: 130px !important;
+}
+
+.saleprogress_select {
+  padding: 5px 10px;
+  background-color: #593BFB;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: var(--white);
+  width: 130px !important;
+}
+
+/* order listing table */
+.table_wrapper {
+  width: 100%;
+}
+
+.table_container {
+  margin-top: 20px !important;
+  padding: 10px !important;
+  width: 100%;
+  border-spacing: 0 15px;
+  border-collapse: collapse;
+  background-color: var(--white);
+  border-radius: 10px;
+}
+
+.table_header {
+  height: 50px;
+}
+.table_header tr th {
+  padding: 10px;
+  color: #483b33;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 900;
+  padding-bottom: 20px;
+}
+
+.table_body tr {
+  border-radius: 5px;
+  border-top: 1px solid #b3a8a1 !important;
+}
+
+.table_body tr td {
+  padding: 15px 5px;
+  font-size: 16px;
+  color: #483b33;
+  font-weight: 600;
+}
+
+.status_btn_paid {
+  padding: 5px;
+  background-color: #593BFB;
+  border-radius: 20px;
+  color: var(--white);
+  font-size: 15px;
+  outline: none;
+  border: none;
+  width: 100px;
+}
+
+.status_btn_progress {
+  padding: 5px;
+  background-color: #f8f8f8;
+  border-radius: 20px;
+  color: var(--dark-text);
+  font-size: 15px;
+  outline: none;
+  border: none;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+.pending_btn_circle {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #483b33;
+}
+
+@media screen and (max-width: 1200px) {
+  .table_wrapper {
+    overflow-x: scroll;
+  }
+  .table_wrapper::-webkit-scrollbar {
+    height: 7px;
+  }
+  .table_wrapper::-webkit-scrollbar-track {
+    background-color: var(--light-green);
+  }
+  .table_wrapper::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: var(--primary-green);
+  }
+}

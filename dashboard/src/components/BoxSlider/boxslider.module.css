@@ -1,0 +1,18 @@
+.SliderBox{
+    height: 140px !important;
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    padding: 20px;
+    border-radius: 10px;
+}
+.SliderBox h1{
+    letter-spacing: -5px;
+    font-size: 50px !important;
+}
+.SliderBox span{
+    color: gray;
+}
